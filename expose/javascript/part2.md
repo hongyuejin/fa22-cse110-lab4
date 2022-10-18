@@ -48,3 +48,32 @@ B: student["Grad Year"]</br>
 C: student.greeting()</br>
 D: student["Favorite Teacher"].name</br>
 E: student.courseLoad[0]</br>
+
+## Question 13
+A. '32' &emsp; In this addition, 2 maps to its string representation </br>
+B. 1 &emsp; Since the sign is substraction, '3' maps to its integer representation </br>
+C. 3 &emsp; In this addition, null maps to 0 </br>
+D. '3null' &emsp; Null maps to its string representation</br>
+E. 4 &emsp; True maps to 1</br>
+F. 0 &emsp; False maps to 0 and null maps to 0</br>
+G. '3undefined' &emsp; Undefined maps to its string representation</br>
+H. NaN &emsp; Undefined maps to its numeric conversion NaN and the result is NaN</br>
+
+## Question 14
+A. true &emsp; '2' maps to its numeric representation </br>
+B. false &emsp; Dictionary comparison, fist char "1" is smaller than "2" </br>
+C. true &emsp; '2' maps to its numeric representation </br>
+D. false &emsp; For strict equality check the two sides are not the same type</br>
+E. false &emsp; True maps to 1, 1 != 2</br>
+F. true &emsp; Boolean(numbers other than 0, -0, NaN) = true, true === true, they also have the same type</br>
+
+## Question 15
+"==" and "===" both check for equality, but "==" is non-strict check and "===" is a strict equality check. In non-strict check, the variables with different type can have numeric/string/boolean conversion. However, in strict check, both sides of the variables must have same type and same value or else these values are different. 
+
+## Question 17
+The output would be [2, 4, 6] </br>
+A brief summary for what the program did: the function modifyArray got called and passed in parameters [1, 2, 3] and the function doSomething. Then, inside of the function modifyArray, a for-loop calls the passed-in function doSomething on each element of the array and stores the returned value from the doSomething function to an array. This array gets returned by the function modifyArray. </br>
+Therefore, because the doSomething function duplicates its input parameter, what the for-loop did was just duplicate each element from the array and stored them to a new array, then returned the array. Thus, the original [1, 2, 3] becomes [2, 4, 6] after passing into the function modifyArray. 
+
+## Question 19
+1 4 3 2
